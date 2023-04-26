@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="pdc03_module05_exercise01.exercise01_picker">
+    <ContentPage.Content>
+        <StackLayout 
+            VerticalOptions="CenterAndExpand" 
+            HorizontalOptions="CenterAndExpand">
+
+            <Label Text="Control #3:"
+                   FontSize="Subtitle"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" />
+
+            <Label Text="Picker"
+                   FontSize="Title"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" />
+            
+            <Picker Title="Select...">
+                <Picker.Items>
+                    <x:String>BSIT</x:String>
+                    <x:String>BSCS</x:String>
+                    <x:String>BMMA</x:String>
+                </Picker.Items>
+            </Picker>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

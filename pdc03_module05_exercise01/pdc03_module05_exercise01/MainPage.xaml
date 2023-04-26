@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="pdc03_module05_exercise01.MainPage">
+
+    <StackLayout>
+
+        <Button Text="exercise01_switch" Clicked="exercise01_switch"></Button>
+        <Button Text="exercise01_entry" Clicked="exercise01_entry"></Button>
+        <Button Text="exercise01_picker" Clicked="exercise01_picker"></Button>
+        
+    </StackLayout>
+
+</ContentPage>

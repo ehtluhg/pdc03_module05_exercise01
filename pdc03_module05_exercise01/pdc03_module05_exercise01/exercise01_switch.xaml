@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="pdc03_module05_exercise01.exercise01_switch">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center"
+                     VerticalOptions="Center">
+            
+            <Label Text="Control #1:"
+                   FontSize="Subtitle"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" />
+            
+            <Label Text="Switch"
+                   FontSize="Title"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" />
+            
+            <Switch
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                OnColor="Green" 
+                ThumbColor="White" />
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

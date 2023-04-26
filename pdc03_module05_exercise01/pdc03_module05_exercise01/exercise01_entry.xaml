@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="pdc03_module05_exercise01.exercise01_entry">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label Text="Control #2:"
+                   FontSize="Subtitle"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" />
+
+            <Label Text="Entry"
+                   FontSize="Title"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" />
+            
+            <Entry Text="John" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
